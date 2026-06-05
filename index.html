@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tip-Top Roofing | Cincinnati & Northern Kentucky Roofers</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=2" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -27,7 +28,6 @@
     </div>
   </header>
 
-  <!-- MOBILE NAV -->
   <div class="mobile-nav" id="mobileNav">
     <a href="#services">Services</a>
     <a href="residential-roofing.html">Residential Roofing</a>
@@ -38,14 +38,21 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <p class="hero-eyebrow">Licensed &amp; Fully Insured</p>
-      <h1>Cincinnati's Trusted<br />Roofing Experts</h1>
-      <p class="hero-sub">Over 50 years of combined experience in residential roofing and repair across Greater Cincinnati and Northern Kentucky. Most jobs completed in one day.</p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary">Schedule Free Inspection</a>
-        <a href="tel:8596535314" class="btn btn-outline">&#128222; (859) 653-5314</a>
+    <div class="hero-photo-bg" style="background-image: url('https://images.unsplash.com/photo-1635424824849-1b09bdcc55b1?auto=format&fit=crop&w=1800&q=80')"></div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Northern Kentucky &amp; Greater Cincinnati</p>
+        <h1>Built to Last.<br /><em>Honest</em> From the Start.</h1>
+        <p class="hero-sub">Over 50 years of combined roofing experience. We show up, we do the work right, and we treat your home like our own.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">Schedule Free Inspection</a>
+          <a href="tel:8596535314" class="btn btn-outline-light btn-lg">&#128222; (859) 653-5314</a>
+        </div>
+        <div class="hero-badges">
+          <span class="hero-badge">Licensed &amp; Insured</span>
+          <span class="hero-badge">50+ Years Experience</span>
+          <span class="hero-badge">Most Jobs in One Day</span>
+        </div>
       </div>
     </div>
   </section>
@@ -67,7 +74,7 @@
       </div>
       <div class="trust-item">
         <span class="trust-num">Free</span>
-        <span class="trust-label">Roof Inspections &amp; Estimates</span>
+        <span class="trust-label">Inspections &amp; Estimates</span>
       </div>
     </div>
   </section>
@@ -81,50 +88,55 @@
   </section>
 
   <!-- SERVICES -->
-  <section class="services section" id="services">
+  <section class="section section-cream" id="services">
     <div class="container">
       <div class="section-header">
-        <h2>What We Do</h2>
-        <p>Complete residential roofing and repair for Greater Cincinnati and Northern Kentucky homeowners.</p>
+        <div class="section-stamp"><span>What We Do</span></div>
+        <h2>American Craftsmanship.<br/>Every Single Roof.</h2>
+        <p>Complete residential roofing and repair — done the right way, with quality materials and honest recommendations.</p>
       </div>
       <div class="services-grid">
         <div class="service-card">
-          <div class="service-icon">&#127968;</div>
+          <span class="service-icon">&#127968;</span>
           <h3>Full Roof Replacement</h3>
-          <p>We specialize in complete re-roofing for existing homes. Our experienced team installs new roofs before inclement weather causes problems.</p>
+          <p>When it's time for a new roof, we deliver. Most complete replacements finished in a single day using quality materials built to last decades.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#128295;</div>
+          <span class="service-icon">&#128295;</span>
           <h3>Roof Repair</h3>
-          <p>Not every roof needs a full replacement. We'll assess your roof and identify what's salvageable versus what needs attention — saving you money.</p>
+          <p>Not every roof needs replacing. We'll assess the damage honestly and fix exactly what needs fixing — saving you money.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#127959;</div>
+          <span class="service-icon">&#127959;</span>
           <h3>New Construction</h3>
-          <p>From new builds to full residential construction projects, we bring the same quality and precision to every new roof we install.</p>
+          <p>From new builds to full residential projects, we bring the same precision and quality to every new roof we install.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">&#128269;</div>
-          <h3>Roof Inspection</h3>
-          <p>Free professional roof inspections to assess current condition, identify problem areas, and give you an honest recommendation — no pressure.</p>
+          <span class="service-icon">&#128269;</span>
+          <h3>Free Inspection</h3>
+          <p>A professional eye on your roof at no cost. We'll tell you exactly what we find — no pressure, no upsells, just the facts.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- PINSTRIPE -->
+  <div class="pinstripe"></div>
+
   <!-- ABOUT -->
-  <section class="about section" id="about">
+  <section class="section section-asphalt" id="about">
     <div class="container about-inner">
       <div class="about-text">
-        <p class="section-eyebrow">About Tip-Top Roofing</p>
-        <h2>High Quality Work, Personalized for Your Every Need</h2>
-        <p>The Tip-Top team brings over 50 years of combined roofing experience to every job. We're locally owned, fully licensed and insured, and deeply familiar with the homes and weather conditions across Greater Cincinnati and Northern Kentucky.</p>
-        <p>Every successful roofing job starts with preparation. We take the time to evaluate your specific situation — recommending only what's truly necessary — and we execute with care so your roof lasts for decades.</p>
+        <span class="section-eyebrow">About Tip-Top Roofing</span>
+        <h2>Quality Work. Honest People. Built on Reputation.</h2>
+        <p>The Tip-Top team brings over 50 years of combined roofing experience to every job. We're locally owned, fully licensed and insured, and deeply familiar with the homes and weather across Greater Cincinnati and Northern Kentucky.</p>
+        <p>Every successful roofing job starts with preparation. We take the time to evaluate your specific situation and recommend only what's truly necessary — then we execute with care so your roof protects your family for decades.</p>
         <ul class="about-list">
-          <li>&#10003; Licensed &amp; Fully Insured</li>
-          <li>&#10003; Locally Owned &amp; Operated</li>
-          <li>&#10003; Free Estimates &amp; Inspections</li>
-          <li>&#10003; Most Jobs Completed in One Day</li>
+          <li>Licensed &amp; Fully Insured</li>
+          <li>Locally Owned &amp; Operated</li>
+          <li>Free Estimates &amp; Inspections</li>
+          <li>Most Jobs Completed in One Day</li>
+          <li>Honest Recommendations — No Upsells</li>
         </ul>
       </div>
       <div class="about-callout">
@@ -135,35 +147,43 @@
     </div>
   </section>
 
+  <!-- PINSTRIPE -->
+  <div class="pinstripe"></div>
+
   <!-- QUALITY MATERIALS -->
-  <section class="materials section" id="materials">
+  <section class="section section-charcoal" id="materials">
     <div class="container">
       <div class="section-header">
-        <h2>Quality Materials</h2>
-        <p>We protect your investment with materials built to last.</p>
+        <div class="section-stamp"><span>Quality Materials</span></div>
+        <h2>We Don't Cut Corners.</h2>
+        <p>Your roof is a long-term investment. We protect it with materials built to perform.</p>
       </div>
       <div class="materials-grid">
         <div class="material-card">
           <h3>Proper Insulation</h3>
-          <p>We replace your roof with materials that properly insulate your home, improving energy efficiency and indoor comfort year-round.</p>
+          <p>We replace your roof with materials that properly insulate your home — improving energy efficiency and comfort year-round, not just today.</p>
         </div>
         <div class="material-card">
-          <h3>Weatherproofing</h3>
-          <p>Northern Kentucky and Cincinnati weather demands durable weatherproofing. We select materials rated to handle the region's full range of conditions.</p>
+          <h3>All-Weather Protection</h3>
+          <p>Northern Kentucky weather demands durability. We select materials rated to handle the region's full range of conditions — heat, ice, wind, and everything between.</p>
         </div>
         <div class="material-card">
           <h3>Long-Term Value</h3>
-          <p>We're committed to replacing your roof with materials that protect your home and hold their value — so you don't have to do this again anytime soon.</p>
+          <p>We're committed to replacing your roof with materials that hold their value and protect your home — so you don't have to do this again anytime soon.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- PINSTRIPE -->
+  <div class="pinstripe"></div>
+
   <!-- SERVICE AREAS -->
-  <section class="service-areas section" id="service-areas">
+  <section class="section section-cream" id="service-areas">
     <div class="container">
       <div class="section-header">
-        <h2>Service Areas</h2>
+        <div class="section-stamp"><span>Where We Work</span></div>
+        <h2>Proudly Serving Our Community</h2>
         <p>We serve homeowners throughout Greater Cincinnati and Northern Kentucky.</p>
       </div>
       <div class="areas-grid">
@@ -179,10 +199,14 @@
     </div>
   </section>
 
-  <!-- CONTACT / CTA -->
-  <section class="contact section" id="contact">
+  <!-- PINSTRIPE -->
+  <div class="pinstripe"></div>
+
+  <!-- CONTACT -->
+  <section class="section section-warm" id="contact">
     <div class="container contact-inner">
       <div class="contact-text">
+        <span class="section-eyebrow">Get in Touch</span>
         <h2>Ready for a Free Roof Inspection?</h2>
         <p>Contact Tip-Top Roofing to schedule a free inspection and estimate. We'll assess your roof honestly and give you a clear picture of what it needs — no pressure, no upselling.</p>
         <a href="tel:8596535314" class="btn btn-primary btn-lg">&#128222; (859) 653-5314</a>
@@ -202,12 +226,11 @@
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="logo.webp" alt="Tip-Top Roofing" class="footer-logo" />
-      </div>
-      <p class="footer-copy">We specialize in roofing services for Northern Kentucky and the Greater Cincinnati area.</p>
+      <img src="logo.webp" alt="Tip-Top Roofing" class="footer-logo" />
+      <div class="footer-divider"></div>
+      <p class="footer-copy">We specialize in roofing services for Northern Kentucky and the Greater Cincinnati area. Licensed &amp; Fully Insured.</p>
       <p class="footer-phone"><a href="tel:8596535314">(859) 653-5314</a></p>
-      <p class="footer-legal">&copy; 2024 Tip-Top Roofing. Licensed &amp; Fully Insured.</p>
+      <p class="footer-legal">&copy; 2024 Tip-Top Roofing &mdash; All Rights Reserved</p>
     </div>
   </footer>
 
